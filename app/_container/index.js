@@ -69,7 +69,6 @@ export default function MedicineList() {
         // Calculate the delivery date based on the adjusted quantity
         const stockStillDate = new Date(medicine.stockStill);
         const deliveryDate = new Date(stockStillDate.setDate(stockStillDate.getDate() + parseInt(adjustedQuantity)));
-        debugger
         const data = {
             _id: medicine._id,                  // Keep medicine ID
             name: medicine.name,                // Use the medicine name as title
