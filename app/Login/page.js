@@ -16,7 +16,7 @@ export default function Login() {
     const mockUserId = 'Poonam Shrivastva'; // Example user ID
 
     // Simple mock authentication
-    if (email === 'test@456.com' && password === 'Test@123') {
+    if (email === 'poonam@gmail.com' && password === 'Poonam@123') {
       localStorage.setItem('auth', 'true'); // Store login status
       localStorage.setItem('userId', mockUserId); // Store the user ID
       router.push('/'); // Redirect to home page
